@@ -11,12 +11,21 @@ body {
 background-color: #26af44 !important; }
 
 #exercisesPara {
-    color: #382946;
+    color: rgb(56, 31, 197);
 }
 
 #exercisesPara:hover {
-    color: #412957;
+    color: rgb(56, 31, 197);
 }
+
+#garagePara {
+    color: rgb(56, 31, 197);
+}
+
+#garagePara:hover {
+    color: rgb(56, 31, 197);
+}
+
 
 h1:hover{
     color: rgb(56, 31, 197);
