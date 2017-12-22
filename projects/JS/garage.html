@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script type="text/javascript" language="javascript" src="garage.js"></script>
+
+<link rel="stylesheet" href="garage.css" type="text/css">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+<header>
+    <div id="headerDiv1">
+        <h1 id="PageTitle">This is my garage</h1>
+    </div>
+</header>
+
+<body>
+    <div class="block">
+        <label>Make</label>
+        <input id="txtMake" type="text" />
+    </div>
+    <div class="block">
+        <label>Model</label>
+        <input id="txtModel" type="text" />
+    </div>
+    <div class="block">
+        <label>Registration</label>
+        <input id="txtReg" type="text" value=""/>
+    </div>
+
+    <div id="submitButtons" class="block">
+        <input id="add" type="button" value="Add to Garage" onclick="addToGarage()" />
+        <input id="remove" type="button" value="Remove from Garage" onclick="removeFromGarage()" />
+        <input id="bill" type="button" value="Get bill" onclick="getBill()" />
+        <input id="showAll" type="button" value="Show All" onclick="outputContents()" />
+        
+    </div>
+
+    <p></p>
+
+    <div id="faults" class="block">
+        <label>Registration</label>
+        <input id"regFault" type="text" value="" />
+        <label>Fault To Add</label>
+        <input id"faultToAdd" type="text" value="" />
+        <input id="addFault" type="button" value="Add Fault" onclick="addFault()" />
+        <label>Faults</label>
+        <select id="faultsMenu"></select>
+        <input id="removeFault" type="button" value="RemoveFault" />
+    </div>
+</body>
+
+<div id="info">
+    <p id=infoPara>Test</p>
+</div>
+
+</html>

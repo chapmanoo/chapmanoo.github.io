@@ -1,0 +1,33 @@
+
+
+body { 
+    font-family: 'Helvetica';
+    padding-top: 50px;
+    color: #868e96;
+    background-color: #73787c;
+}
+
+.bg-primary {
+background-color: #26af44 !important; }
+
+
+h1:hover{
+    color: rgb(56, 31, 197);
+}
+
+a{
+    color:rgb(109, 72, 194);
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: rgb(109, 72, 194);
+}
+
+a:hover {
+    color: rgb(56, 31, 197);
+}
+
+a:active {
+    color:#0000FF;
+}
