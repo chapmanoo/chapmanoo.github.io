@@ -10,6 +10,13 @@ body {
 .bg-primary {
 background-color: #26af44 !important; }
 
+#exercisesPara {
+    color: #b187d8;
+}
+
+#exercisesPara:hover {
+    color: #7a5b97;
+}
 
 h1:hover{
     color: rgb(56, 31, 197);
